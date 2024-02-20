@@ -1,0 +1,268 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+#page{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+#page>nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    height: 7vh;
+    width: 50vw;
+
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ffffff;
+}
+#page>nav>button{
+    padding: 7px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+}
+#page>nav>h3{
+    font-weight: 600;
+}
+#page>video{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    object-fit: cover;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#page1{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+#page-bottom{
+    height: 10%;
+    width: 16%;
+    background-color: #a7a6a6;
+    border-radius: 70px;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#page1>video{
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page1>h1{
+    font-size: 5vw;
+    font-weight: 400;
+    color:rgb(3, 250, 65);
+    font-weight: 400;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+#page2{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    
+}
+#page2>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page2>h1{
+    font-size: 4vw;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    text-align: center;
+    color: #fff;
+}
+#page3{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+#page3>img{
+    width: 50%;
+    position: absolute;
+    top: 33%;
+    height: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#page3-upper{
+    height: 30%;
+    width: 35%;
+    top: 5%;
+  
+    position: absolute;
+    z-index: 9;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#page3-upper>img{
+    position: absolute;
+    top: 10%;
+width: 40%;
+left: 50%;
+transform: translateX(-50%);
+
+}
+#page3-upper-inner{
+    position: absolute;
+    bottom: 0%;
+    height: 50%;
+    width: 100%;
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0px 20px;
+color: rgb(216, 145, 13);
+}
+
+#page3>button{
+    position: absolute;
+    bottom: 6%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    border: 1px solid #000;
+    font-weight: 500;
+    background-color: #fff;
+    border-radius: 50px;
+    scale: 1.2;
+}
+#page4{
+    position: relative;
+height: 100vh;
+width: 100vw;
+}
+#page4>img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+#center-page4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: rgb(192, 105, 5);
+    font-size: 20px;
+
+}
+#page5{
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+ 
+    display: flex;
+}
+.left5{
+    height: 100%;
+    width: 50%;
+  
+
+}
+.right5{
+    height: 100%;
+    width: 50%;
+   
+    
+}
+.right5>img{
+    position: absolute;
+    height: 60vh;
+    width: 25vw;
+  
+    
+}
+
+.left5>h3{
+    position: absolute;
+    top: 53%;
+    text-align: center;
+    left: 13%;
+    }
+
+.left5>h1{
+position: absolute;
+top: 33%;
+text-align: center;
+left: 15%;
+}
+
+#page6{
+    background-color: #000;
+    position: relative;
+    height: 90vh;
+    width: 100vw;
+  }
+#page6>img{
+    top: 25%;
+    width: 100vw;
+    position: absolute;
+    object-fit: cover;
+
+}
+#page6>h3{
+    position: absolute;
+    top: 6%;
+    color: #fff;
+    font-size: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#page6>h1{
+    position: absolute;
+    top: 14%;
+    color: #fff;
+    font-size: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#page7{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+#page7>canvas{
+    position: relative;
+    max-width: 100vw;
+    max-height: 100vh;
+    z-index: 99;
+}
